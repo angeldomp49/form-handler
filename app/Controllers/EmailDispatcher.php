@@ -18,7 +18,7 @@ class Home extends BaseController
 		return view('formulario');
 	}
 
-	public function registrar(){
+	public function dispatch(){
 		$email = Services::email();
 		$email->setFrom('contacto@makechtecnology.online', 'MakechTec');
 		$email->setTo($this->request->getVar('email'));
