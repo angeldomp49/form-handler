@@ -38,9 +38,9 @@
 #--------------------------------------------------------------------
 
 # database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
+# database.default.database = makech_test21
+# database.default.username = makech_test21
+# database.default.password = makech_test21
 # database.default.DBDriver = MySQLi
 # database.default.DBPrefix =
 
